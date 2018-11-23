@@ -1,0 +1,25 @@
+header {
+  background: yellow;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+nav {
+  background: lightblue;
+  font-size: 30px;
+  text-align: center;
+}
+section {
+  width: 80%;
+  height: 600px;
+  background: rgb(92, 92, 255);
+}
+article {
+  background: rgb(255, 75, 105); 
+}
+footer {
+  text-align: center;
+  background: yellow;
+  padding: 20px;
+}

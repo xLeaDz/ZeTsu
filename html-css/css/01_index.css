@@ -1,0 +1,20 @@
+body {
+  background: url(https://yt3.ggpht.com/a-/ACSszfGuGTBn7x3kAMX45ai4TEkzXx1YD8kT3aH6qg=s900-mo-c-c0xffffffff-rj-k-no)
+    no-repeat center / 100% 100%;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  font-family: "Indie-Flower", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "walkway", sans-serif;
+}
+h1 {
+  text-align: center;
+}

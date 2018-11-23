@@ -1,0 +1,65 @@
+header {
+  background: url(../img/RaZe.jpg);
+  height: 100%;
+  color: rgb(151, 151, 151);
+  text-align: center;
+  font-size: 500%;
+  text-shadow: 0 0 2px red;
+  padding-top: 40px;
+}
+/* NOM DE L'ONGLET */
+title {
+  padding-top: 500px;
+}
+/* HAUT DE PAGE */
+body {
+  background: url(../img/rz.jpg);
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 200%;
+  text-shadow: 0 0 2px red;
+  padding-top: 7px;
+}
+img {
+  padding: 10px;
+}
+nav.premier-nav ul li {
+  list-style-type: none;
+  font-size: 150%;
+  display: inline-block;
+}
+nav.premier-nav ul li a {
+  color: red;
+  text-decoration: none;
+  background-color: white;
+}
+nav.premier-nav ul li:hover a {
+  color: white;
+  background-color: red;
+  transition: 0.4s all;
+}
+/* BAS DE PAGE */
+footer {
+  list-style-type: none;
+  text-align: left;
+}
+a {
+  font-size: 25px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+footer:hover a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  transition: 0.4s;
+}
+p {
+  text-align: right;
+  font-size: 20px;
+  color: white;
+}
+section {
+  height: 600px;
+}
