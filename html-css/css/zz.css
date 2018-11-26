@@ -1,5 +1,5 @@
 header {
-  background: url(../img/RaZe.jpg);
+  background: url(../css/rz.jpg);
   height: 100%;
   color: rgb(151, 151, 151);
   text-align: center;
@@ -19,7 +19,7 @@ title {
 
 /* HAUT DE PAGE */
 body {
-  background: url(../img/rz.jpg);
+  background: url(../css/rz.jpg);
 }
 
 h1 {
@@ -35,13 +35,10 @@ form {
   color: white;
 }
 
-
 label {
   width: 100px;
   display: inline-block;
 }
-
-
 
 nav.premier-nav ul li {
   list-style-type: none;
@@ -152,4 +149,9 @@ section {
 
 footer {
   text-align: left;
+}
+
+img {
+  width: 500px;
+  height: 500px;
 }

@@ -1,0 +1,66 @@
+/* HAUT DE PAGE */
+body {
+  background: url(../Css/rz.jpg);
+}
+
+nav.premier-nav ul li {
+  list-style-type: none;
+  font-size: 150%;
+  display: inline-block;
+}
+
+nav.premier-nav ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+nav.premier-nav ul li:hover a {
+  color: white;
+  background-color: red;
+  transition: 0.4s all;
+}
+
+/* BAS DE PAGE */
+.mpp {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+footer {
+  text-align: left;
+}
+
+nav ul {
+  padding-top: 100px;
+}
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  opacity: ;
+}
+header {
+  padding-top: 100px;
+  color: white;
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+p {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+}
+nav ul {
+  text-align: center;
+}
+nav li {
+  width: 100px;
+  text-decoration: underline;
+}
+a {
+  color: white;
+}

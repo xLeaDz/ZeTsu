@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <header>Formulaire</header>
+  </head>
+
+  <body>
+
+    <form>
+      <fieldset>
+        <legend>Information personnelle:</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" /> <br />
+
+        <label for="firt-name">Prénom:</label>
+        <input type="text" name="firt-name" id="firt-name" required /> <br />
+
+        <label for="birthday">Date de naissance:</label>
+        <input type="date" name="birthday" id="birthday" required /> <br />
+
+        <label for="birthtime">Heure de naissance:</label>
+        <input type="datetime" name="birthtime" id="birthtime" required />
+        <br />
+
+        <label for="radio">homme</label>
+        <input type="radio" name="radio" id="radio" value="homme" />
+        
+        <label for="radio">femme</label>
+        <input type="radio" name="radio" id="radio" value="femme" /> <br />
+        
+        <label for="adress">Adresse:</label>
+        <input type="text" name="adress" id="adress" required />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" required /> <br />
+
+        <label for="mdp">Mot de passe:</label>
+        <input type="password" name="mdp" id="mot de passe" required /> <br />
+      </fieldset>
+        <br />
+      </fieldset>
+
+      <input type="submit" value="Envoyer" />
+    </form>
+  </body>
+</html>
