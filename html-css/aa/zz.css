@@ -52,7 +52,7 @@ h1 {
 p {
   color: white;
   font-size: 20px;
-  text-align: right;
+  text-align: center;
 }
 nav ul {
   text-align: center;
@@ -63,4 +63,19 @@ nav li {
 }
 a {
   color: white;
+}
+img {
+  text-align: center;
+  margin: auto;
+}
+td {
+  color: white;
+  border: purple;
+  }
+th {
+  color: white;
+}
+table {
+  width: 50%;
+  margin: auto;
 }
