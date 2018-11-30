@@ -1,0 +1,105 @@
+<!-- les liens permettent de se déplacer à l'intérieur des rubriques d'un site. Ce sont pour les principaux des liens de navigation et on les regroupe dans un menu (barre de navigation) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Menu de navigation et propriétés CSS</title>
+</head>
+
+<body>
+
+  <!-- la balise NAV est dédiée à la navigation du site -->
+  <nav>
+    <!-- Ici ajouter une navigation -->
+  </nav><br />
+
+  <section class="container">
+    <h3>Quel selecteur permet de:</h3>
+    <ul>
+      <li>Sélectionne TOUS les éléments de la page html: <mark>*</mark></li>
+      <li>Sélectionne tous les éléments ayant le nom de class "ma-jolie-nav": <mark>.ma-jolie-nav</mark></li>
+      <li>Sélectionne tous les éléments ayant le nom de mon id "mon-unique-id": <mark>#mon-unique-id</mark></li>
+      <li>Sélectionne toutes les balises <div>, <article> ET <aside>: <mark>div, article, aside</mark></li>
+      <li>Sélectionne les liens <a> inclus/imbriqués dans la balise <nav>: <mark>nav a</mark></li>
+      <li>Sélectionne tous les liens de la nav et active une animation lors du survol de la souris: nav a<mark>:hover</mark></li>
+    </ul><br />
+  </section>
+
+  <div class="container1">
+    <section class="container2">
+      <h4>Décrivez leur usage et leurs valeurs possibles</h4>
+      <ol>
+        <li>background: couleur(ou image de fond). Valeur possible url, couleur(literal, hex, rgb, rgba) /!\ Le treme
+          background est générique il contient en réalité toutes les propriétés background(background-image,
+          background-color, background-size, background-repeat, ...) </li>
+        <li>color: couleur de la police, valeur possible en litéral, hex, rgb, rgba, ...</li>
+        <li>float: permet de faire flotté un élément, valeurs possible droite ou gauche</li>
+        <li>font-family: défini la police d'un élément, valeur possible toutes polices préalablement installé</li>
+        <li>font-size: taille de la police, valeurs possible px, em, rem, %, ...</li>
+        <li>height: hauteur de l'élément, valeurs possible px, em, rem, %, ...</li>
+        <li>left: position à partir de la gauche de la fenêtre, valeurs possible px, em, rem, %, ...</li>
+        <li>line-height: hauteur de l'interligne, valeurs possible px, em, rem, %, ...</li>
+        <li>margin: marge externe(ou exterieur), valeurs possible px, em, rem, %, ...</li>
+        <li>padding: marge interne(ou intérieur), valeurs possible px, em, rem, %, ...</li>
+        <li>position: position de l'élément dans la page(ou fenêtre), valeurs possible fixed(fixe), relative(relatif),
+          absolute(absolu)</li>
+        <li>text-align: alignement du texe, valeurs possibles left, center, right</li>
+        <li>text-decoration: change les valeurs hérité par défaut de l'élément(pour un a par exemple ce sera
+          l'underline)</li>
+        <li>top: position à partir du haut de la fenêtre, valeurs possible px, em, rem, %, ...</li>
+        <li>transition: temps de transition lors d'une animation</li>
+        <li>width: largeur de l'élément, valeurs possible px, em, rem, %, ...</li>
+      </ol>
+    </section>
+
+    <section class="container3">
+      <h3>Propriétés CSS à rechercher</h3>
+      <h4>Recherchez les propriétés ci-dessous, faites des tests avec sur cette page depuis la console de débuggage
+        pour tester les valeurs qu'elles peuvent prendre</h4>
+      <ol>
+        <li>font-weight: défini le niveau de gras de la police, valeurs possibles normal, bold, 100, 500, 900, ...</li>
+        <li>letter-spacing: espacement entre les lettre, valeurs possibles normal, px, rem, %, ch</li>
+        <li>word-spacing: espacement entre les mots, valeurs possibles normal, px, rem, %, ch</li>
+        <li>text-shadow: ajoute des ombres à texte, valeurs possibles px + hex, rgb, rgba, ...</li>
+        <li>background-image: image de fond, valeur possible url</li>
+        <li>background-size: taille de l'image de fond</li>
+        <li>opacity: modifie la transparence de l'élément, valeur possible entre 0 et 1</li>
+        <li>border-style: défini le style de la bordure, valeurs possibles dotted, solid, dashed, ...</li>
+        <li>box-shadow: ajoute des ombres à la boîte via une liste d'ombres séparées par des virgules(px, em, %</li>
+        <li>list-style-image: définit l'image utilisée comme puce devant les éléments de listes. On peut également
+          utiliser la propriété raccourcie list-style.</li>
+        <li>border: ajoute une bordure à l'élément</li>
+        <li>border-radius: ajoute un arrondi à la bordure</li>
+        <li>border-width: définit la largeur d'une bordure pour la boîte d'un élément(px, em, %</li>
+        <li>font-variant: Détermine si l'élément doit être affiché tout en majuscules, les minuscules du code source
+          étant affichées en majuscules plus petites. Si une famille de polices comprend une variante Petites
+          capitales, le navigateur doit normalement utiliser cette dernière.</li>
+        <li>background-color: couleur de fond(litéral, hex, rgb, ...)</li>
+        <li>!important;: permet de spécifier que la propriété est la plus importante dans votre feuille CSS en lui
+          donnant un poids plus important</li>
+      </ol>
+    </section>
+    <div class="clear"></div>
+  </div><!-- fin DIV CONTAINER1 -->
+
+  <section class="container container4">
+    <h3>Pour aller plus loin en CSS, quelques pistes...</h3>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN le site officiel</a></li>
+      <li><a href="https://tympanus.net/codrops/">Codrops, références, tutos...</a></li>
+      <li><a href="https://flukeout.github.io/">Jeu avec les sélecteurs CSS</a></li>
+      <li><a href="http://flexboxfroggy.com/">Un autre jeu sur le système des "Flexbox"</a></li>
+      <li><a href="http://viewportsizes.com/">Différentes tailles d'écrans</a></li>
+      <li><a href="http://fr.learnlayout.com/">Tutos simples en français</a></li>
+      <li><a href="https://purecss.io">Encore des tutos</a></li>
+      <li><a href="https://www.w3c.org/Style/CSS/learning">Le site du W3C (partie CSS)</a></li>
+    </ul>
+  </section>
+</body>
+
+</html>

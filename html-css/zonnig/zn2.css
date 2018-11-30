@@ -1,0 +1,174 @@
+body {
+  width: 60%;
+  margin: 10px auto;
+  font-family: cursive;
+}
+
+#contenu {
+  background: red;
+  border: 2px solid black;
+}
+
+header {
+  height: 80px;
+  color: white;
+  padding-top: 6px;
+  text-align: center;
+  background: #5a0b29;
+}
+
+footer {
+  height: 80px;
+  color: white;
+  padding-top: 6px;
+  text-align: center;
+  background: #200b13;
+}
+
+nav {
+  height: 40px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 6px;
+  background: #200b13;
+}
+
+section {
+  height: 500px;
+  text-align: center;
+  border: 20px solid rgb(2, 198, 247);
+  background: #ffffff;
+}
+
+p {
+  margin: 0;
+}
+
+.un {
+  float: left;
+  background: red;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.deux {
+  float: left;
+  background: red;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.trois {
+  float: left;
+  background: blue;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.quatre {
+  float: left;
+  background: blue;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.cinq {
+  float: left;
+  background: red;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.six {
+  float: left;
+  background: red;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.sept {
+  float: left;
+  background: blue;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.huit {
+  float: left;
+  background: blue;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.neuf {
+  float: left;
+  background: black;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.dix {
+  float: left;
+  background: black;
+
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.onze {
+  float: left;
+  background: pink;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.douze {
+  float: left;
+  background: pink;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.treize {
+  float: left;
+  background: black;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.q14 {
+  float: left;
+  background: black;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.q15 {
+  float: left;
+  background: pink;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}
+
+.q16 {
+  float: left;
+  background: pink;
+  height: 25%;
+  width: 24.5%;
+  margin: 2px;
+}

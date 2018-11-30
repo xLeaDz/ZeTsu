@@ -1,0 +1,105 @@
+header {
+  width: 100%;
+  height: 110px;
+  background: #333333;
+}
+h1 {
+  color: white;
+  font-size: 30px;
+  padding-left: 600px;
+}
+h2 {
+  color: white;
+  font-size: 10px;
+  padding-left: 600px;
+}
+/*nav {
+  padding-left: 900px;
+  width: 30%;
+  text-align: center;
+}*/
+.UN {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding-right: 400px;
+}
+.deux {
+  background: #e90000;
+  display: inline-block;
+}
+.contenu {
+  width: 1300px;
+  height: 1500px;
+  margin: 10px auto;
+}
+.section {
+  /* text-align: center;
+  padding-right: 800px;
+  width: 80%;*/
+  /* display: inline-block; */
+}
+
+.mg1 {
+  width: 300px;
+  float: left;
+  height: 250px;
+
+  margin-right: 15px;
+}
+.caption {
+  width: 300px;
+  height: 15px;
+  display: inline-block;
+}
+figcaption {
+  width: 290px;
+  height: 30px;
+  text-align: center;
+  background: rgb(216, 216, 216);
+  font-size: 20px;
+  color: rgb(173, 168, 168);
+  line-height: 25px;
+}
+.p-lorem {
+  font-size: 20px;
+  font-family: cursive;
+  color: gray;
+  text-align: center;
+  margin-bottom: 30px;
+}
+figure {
+  border: 3px solid gray;
+  margin: 0;
+  padding: 5px;
+  width: 290px;
+}
+.gauche {
+  width: 880px;
+  float: left;
+  margin-bottom: 20px;
+}
+.article {
+  float: left;
+}
+.ii {
+  border: 4px double gray;
+  float: left;
+  margin-right: 20px;
+}
+.droite {
+  float: right;
+  width: 400px;
+}
+.liens {
+  /*list-style-type: none;*/
+  list-style-image: url(img/bird.png); 
+}
+.li {
+  border-bottom: 1px dashed gray;
+}
+/*.li::before {
+  content: ">";
+  color: orange;
+  margin-right: 5px;
+}*/
