@@ -50,15 +50,14 @@ h2 {
 .caption {
   width: 300px;
   height: 15px;
-  display: inline-block;
 }
 figcaption {
   width: 290px;
   height: 30px;
   text-align: center;
-  background: rgb(216, 216, 216);
+  /*background: rgb(216, 216, 216);*/
   font-size: 20px;
-  color: rgb(173, 168, 168);
+  /*color: rgb(173, 168, 168);*/
   line-height: 25px;
 }
 .p-lorem {
@@ -93,7 +92,7 @@ figure {
 }
 .liens {
   /*list-style-type: none;*/
-  list-style-image: url(img/bird.png); 
+  list-style-image: url(img/bird.png);
 }
 .li {
   border-bottom: 1px dashed gray;
