@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  background: green;
+} */
+
+.sec1 {
+  margin-top: 15px;
+  width: 951px;
+  height: 612px;
+  position: absolute;
+  right: 25%;
+  background: url(img/woddPlank.jpg);
+}
+
+.ce {
+  position: absolute;
+  right: 92%;
+  font-size: 20px;
+  top: 5%;
+}
+
+.hr1 {
+  border-bottom: solid 10px pink;
+  position: absolute;
+  top: 10%;
+  right: 92%;
+  width: 47px;
+}
+.men {
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 25px;
+  float: right;
+  right: 50%;
+}
+
+.cerf {
+  width: 20%;
+  height: 32%;
+  position: absolute;
+  top: 39%;
+  right: 40%;
+}
+
+.div {
+  border-top: 150px solid #ff002d;
+  border-left: 150px solid transparent;
+  opacity: 0.5;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: 43%;
+  top: 48%;
+}
+
+.fa {
+  font-size: 50px;
+  margin-left: 48%;
+  margin-top: 52%;
+}
+
+.sec2 {
+  margin-top: 592px;
+  width: 951px;
+  height: 612px;
+  position: absolute;
+  right: 25%;
+  background: white;
+}
+
+.our {
+  position: absolute;
+  right: 66%;
+  top: 50%;
+}
+
+.lor1 {
+  position: absolute;
+  right: 49%;
+  top: 58%;
+  word-wrap: break-word;
+  width: 431px;
+  margin-top: 20px;
+}
+
+.e2004 {
+  margin-top: 50px;
+  color: rgb(255, 90, 117);
+  margin-left: 184px;
+}
+
+/* .sec2{
+ background: red;
+ background: url(img/pattern.jpg) 
+}*/
+
+.A {
+  color: rgb(0, 0, 0);
+  width: 50%;
+  height: 150%;
+}
+/* .B {
+  color: white;
+  width: 50%;
+  height: 50%;
+  background: rgb(243, 0, 0);
+  margin-top: -82.2%;
+  margin-left: 50%;
+  margin-right: 50%;
+} */
+/* .C {
+    color: white;
+    width: 50%;
+    height: 50%;
+  } */
+.D {
+  color: white;
+  width: 50%;
+  height: 50%;
+  background: rgb(0, 195, 255);
+  margin-top: -32.2%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.h1a {
+  position: absolute;
+  right: 72%;
+  top: 17%;
+}
+.diva {
+  position: absolute;
+  right: 62%;
+  top: 28%;
+  width: 29%;
+}
+
+.asp {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 61%;
+  height: 75%;
+}
+.est {
+  color: palevioletred;
+  position: absolute;
+  right: 74%;
+  top: 60%;
+}
+
+.hr2 {
+  border-bottom: solid 10px pink;
+  position: absolute;
+  top: 23%;
+  right: 74%;
+  width: 47px;
+}
+
+.soap {
+  position: absolute;
+  right: 39%;
+  top: 75%;
+  width: 61%;
+  height: 75%;
+}
+
+.lore1 {
+  position: absolute;
+  right: -3%;
+  top: 111%;
+  word-wrap: break-word;
+  width: 342px;
+  margin-top: 20px;
+}
+.h1b {
+  position: absolute;
+  right: 10%;
+  top: 102%;
+}
+
+.hr3 {
+  border-bottom: solid 10px pink;
+  position: absolute;
+  top: 108%;
+  right: 13%;
+  width: 47px;
+}
+
+.g1 {
+  position: absolute;
+  right: 8%;
+  top: 83%;
+  width: 18%;
+  height: 18%;
+}
+
+.all {
+  color: palevioletred;
+  position: absolute;
+  right: 13%;
+  top: 145%;
+}
+
+.lore2 {
+  position: absolute;
+  right: 61%;
+  top: 173%;
+  word-wrap: break-word;
+  width: 342px;
+  margin-top: 20px;
+}
+
+.lq {
+  color: palevioletred;
+  position: absolute;
+  right: 71%;
+  top: 207%;
+}
+
+.h1c {
+  position: absolute;
+  right: 71%;
+  top: 164%;
+}
+
+.hr4 {
+  border-bottom: solid 10px pink;
+  position: absolute;
+  top: 171%;
+  right: 78%;
+  width: 47px;
+}
+.moule {
+  position: absolute;
+  right: 0%;
+  top: 150%;
+  width: 56%;
+  height: 67%;
+}
+.bas {
+  position: absolute;
+  right: 0%;
+  top: 217%;
+  width: 100%;
+  height: 75%;
+}
+
+.h11 {
+  position: absolute;
+  right: 83%;
+  top: 313%;
+}
+.hr5 {
+  border-bottom: solid 10px pink;
+  position: absolute;
+  top: 320%;
+  right: 84%;
+  width: 47px;
+}
+.pp {
+  position: absolute;
+  top: 326%;
+  right: 67%;
+  width: 317px;
+}
