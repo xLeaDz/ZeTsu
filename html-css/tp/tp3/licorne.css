@@ -1,0 +1,20 @@
+.headzer {
+    background: pink !important;
+}
+
+nav ul li:hover{
+    background: #ff7089;
+}
+
+.arc {
+    position: absolute;
+    right: 30%;
+}
+
+.unj {
+    position: absolute;
+    right: 38%;
+    top: 13%;
+    font-size: 253%;
+    color: #ff7089;
+}
