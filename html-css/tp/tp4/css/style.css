@@ -1,0 +1,42 @@
+header {
+  background: url(../img/pattern.jpg);
+  height: 148px;
+}
+
+.un {
+  display: inline-block;
+}
+
+.a {
+  background: rgb(51, 126, 51);
+  color: white;
+}
+
+.terre {
+  text-align: center;
+}
+
+.box-5 {
+  width: 200px;
+  height: 100px;
+  -webkit-border-radius: 50% / 60% 60% 40% 40%;
+  border-radius: 50% / 100% 100% 0 0;
+  border: 1px solid rgb(223, 3, 3);
+  border-bottom: none;
+  position: absolute;
+  top: 23%;
+  right: 42.8%;
+}
+nav.premier-nav ul li {
+  list-style-type: none;
+  font-size: 95%;
+  display: inline-block;
+  margin: 30px;
+}
+
+nav.premier-nav {
+  background: #9fdc9f;
+  position: absolute;
+  top: 24%;
+  right: 25%;
+}

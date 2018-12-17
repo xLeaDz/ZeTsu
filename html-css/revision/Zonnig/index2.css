@@ -1,0 +1,50 @@
+.container {
+  border: 2px solid black;
+}
+
+.blue {
+  background: blue;
+  height: 190px;
+}
+
+.white {
+  height: 190px;
+}
+
+.col-lg-12 {
+  background: rgb(126, 26, 165);
+  height: 50px;
+}
+.long {
+  background: blue;
+  height: 264px;
+}
+
+.bgris {
+  background: rgb(70, 124, 158);
+  height: 264px;
+}
+
+.orange {
+  background: orangered;
+  height: 264px;
+}
+
+.jaune {
+  background: yellow;
+  height: 264px;
+}
+
+.bluee {
+  background: blue;
+}
+
+.longg {
+  background: blue;
+  height: 190px;
+}
+
+.sblue {
+  background: steelblue;
+  height: 110px;
+}
