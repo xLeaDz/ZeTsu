@@ -3,6 +3,13 @@ header {
   height: 148px;
 }
 
+.wave {
+  background: url(../img/header_haut.png);
+  height: 100px;
+  position: relative;
+  bottom: 42px;
+}
+
 .un {
   display: inline-block;
 }
@@ -16,7 +23,7 @@ header {
   text-align: center;
 }
 
-.box-5 {
+/* .box-5 {
   width: 200px;
   height: 100px;
   -webkit-border-radius: 50% / 60% 60% 40% 40%;
@@ -26,8 +33,8 @@ header {
   position: absolute;
   top: 23%;
   right: 42.8%;
-}
-nav.premier-nav ul li {
+} */
+/* nav.premier-nav ul li {
   list-style-type: none;
   font-size: 95%;
   display: inline-block;
@@ -39,4 +46,4 @@ nav.premier-nav {
   position: absolute;
   top: 24%;
   right: 25%;
-}
+} */
