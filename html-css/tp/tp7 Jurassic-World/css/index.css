@@ -1,0 +1,130 @@
+.header {
+  background: url(../img/dinosaure.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 1000px;
+}
+
+.az {
+  margin-left: 547px;
+}
+
+.ae {
+  margin-left: 178px;
+  margin-top: 741px;
+}
+
+ul {
+  background: rgba(0, 0, 0, 0.5);
+  /* position: fixed;   */
+  color: black;
+}
+
+.dino {
+  font-size: 48px;
+}
+
+.trans {
+  /* background: url(../img/entree.png); */
+  width: 100%;
+  height: 500px;
+  transition: transform 2s;
+}
+
+.trans :hover {
+  transform: scale(1.1);
+}
+
+.un {
+  text-align: center;
+}
+
+.aaaa {
+  text-align: center;
+}
+
+.m13 {
+  width: 44px;
+}
+
+.part {
+  text-align: center;
+  font-size: 30px;
+}
+
+.middle {
+  margin: 80px;
+  width: 100px;
+}
+
+.foot {
+  background: black;
+}
+
+.a1 {
+  margin-right: 30px;
+}
+
+.a2 {
+  margin-right: 30px;
+}
+
+.a3 {
+  margin-right: 30px;
+}
+
+.a4 {
+  margin-right: 30px;
+}
+
+.fb {
+  color: white;
+}
+
+.fbb {
+  margin-left: 86px;
+}
+
+.jock {
+  color: white;
+}
+
+.copy {
+  color: white;
+}
+
+.lien a {
+  color: white;
+  text-decoration: none;
+}
+
+.bout {
+  background: #1c5f81;
+  color: white;
+  border-color: #1c5f81;
+}
+
+.bout:hover {
+  background: white;
+  color: #1c5f81;
+  border-color: white;
+}
+
+.ft:hover {
+  border-top: 5px solid #8dae4f;
+  background: rgba(0, 0, 0, 0.5);
+  color: red;
+}
+
+li a {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+ .header{
+  /* background-size: 900px; */
+  height: 100%  ;
+  width: 100%;
+}
+}
