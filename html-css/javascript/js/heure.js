@@ -7,13 +7,13 @@ var sec = Number(prompt("seconde"));
 if (
   heure <= 23 &&
   heure >= 0 &&
-  min <= 59 &&
-  min >= 0 &&
-  sec <= 59 &&
-  sec >= 0
-) {
-  // Incrémente les seconde
-  sec++;
+    min <= 59 &&
+    min >= 0 &&
+    sec <= 59 &&
+    sec >= 0
+  ) {
+    // Incrémente les seconde
+    sec++;
 
   if (sec == "60") {
     sec = "00";

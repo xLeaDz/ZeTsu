@@ -3,7 +3,8 @@
 // }
 
 
-var ii = prompt('saisir un nombre');
-for (var i = 1; i <= ii; i++) {
-  document.write("tour de boucle n°" + i + "<br>");
+var ii = prompt(+'saisir un nombre');
+for (var i = 1; i <= 6; i++) {
+prompt('Ressayer')
 }
+

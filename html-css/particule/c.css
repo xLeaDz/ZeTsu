@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-size: 0;
+  background: rgb(104, 70, 70);
+}
+
+canvas {
+  background: black;
+  width: 100vw;
+  height: 37vh;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  bottom: 35px;
+  left: calc(50% - 125px);
+  background: none;
+  color: white;
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.2);
+  display: none;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica, Verdana, sans-serif;
+  opacity: 1;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.azz {
+  color: #fff;
+}
+
+header {
+    background: url(img/RaZe.jpg);
+    height: 100%;
+    color: rgb(151, 151, 151);
+    text-align: center;
+    font-size: 500%;
+    text-shadow: 0 0 2px red;
+    padding-top: 40px;
+}
+
+header:hover {
+    box-shadow: 0 0 20px rgb(109, 109, 109);
+}
+
+/* NOM DE L'ONGLET */
+title {
+    padding-top: 500px;
+}
+
+/* HAUT DE PAGE */
+body {
+    background: black;
+}
+
+/*body {
+  background: linear-gradient(to right, red, purple);
+  width: 100%;
+  height: 800px;
+}*/
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 0 0 2px red;
+    padding-top: 7px;
+}
+
+form {
+    text-align: center;
+    color: white;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+nav.premier-nav ul li {
+    list-style-type: none;
+    font-size: 150%;
+    display: inline-block;
+}
+
+nav.premier-nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+nav.premier-nav ul li:hover a {
+    color: white;
+    background-color: red;
+    transition: 0.4s all;
+}
+
+table,
+td {
+    color: #fff;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+table {
+    margin: auto;
+    width: 30%;
+}
+
+td {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-shadow: 0 0 2px rgb(255, 0, 0);
+    background: url(img/RaZe.jpg);
+}
+
+h2:hover {
+    box-shadow: 0 0 20px red;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+p.projet {
+    color: white;
+    font-size: 24px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+p.para {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 24px;
+}
+
+h1.video {
+    text-align: center;
+}
+
+div#contenue div.leftbox {
+    text-align: center;
+}
+
+h1.inscription {
+    text-align: center;
+}
+
+/* BAS DE PAGE */
+a {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    box-shadow: 0 0 20px rgb(12, 166, 255);
+}
+
+p {
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+.infoteam {
+    font-size: 24px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+section {
+    height: 600px;
+}
+
+footer {
+    text-align: left;
+}
+
+td {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.td {
+    border: none;
+}
